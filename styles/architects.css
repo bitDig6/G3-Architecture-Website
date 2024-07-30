@@ -218,6 +218,10 @@ main > section{
 
 /* sponsors related styles */
 
+.our-sponsors{
+    margin-bottom: 100px;
+}
+
 .sponsor-info{
     max-width: 540px;
     margin: 50px auto;
@@ -231,6 +235,22 @@ main > section{
 
 .sponsor-companies img{
     filter: grayscale(100%);
+}
+
+/* footer styles */
+
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    padding: 36px 50px;
+}
+
+#footer-description{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
 }
 
 /* responsive media query */
@@ -269,8 +289,6 @@ main > section{
         margin-top: 20px;
         margin-left: 70px;
     }
-
-
 }
 
 /* medium devices */
